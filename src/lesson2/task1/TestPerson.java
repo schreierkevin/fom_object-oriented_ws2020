@@ -1,7 +1,7 @@
 /**
  * 
  */
-package task1;
+package lesson2.task1;
 
 /**
  * @author kschreier
