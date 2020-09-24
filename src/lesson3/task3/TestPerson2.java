@@ -1,7 +1,7 @@
 /**
  * 
  */
-package lesson3.task2;
+package lesson3.task3;
 
 import lesson2.task1.Person;
 
@@ -27,8 +27,8 @@ public class TestPerson2 {
 		personen[2].setName("Meister");
 		personen[2].setVorname("Ralf");
 		
-		for(int i = 0; i < 3; i++) {
-			System.out.println(personen[i].getName() + " " + personen[i].getVorname());
+		for(Person person: personen) {
+			System.out.println(person.getName() + " " + person.getVorname());
 		}
 	}
 }
